@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 23vw 35vw;
+  gap: 0;
+  grid-auto-rows: minmax(80vh, 70vh);
+  margin: 1rem;
+  padding: 1rem 8rem;
+  justify-content: center;
+}
+
+.div {
+  -moz-box-shadow: 0 0 5px rgba(255, 0, 0, 0.463);
+  -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, 0.463);
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.463);
+}
+
+.red {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+
+h1 {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  margin-bottom: 25px;
+}
+
+.one {
+  margin-bottom: 2rem;
+}
+/* 
+.form {
+  display: inline-block;
+  padding-left: 1.6rem;
+} */
+/* 
+input {
+  display: block;
+} */
+
+/* .mb {
+  margin-bottom: 4px;
+  gap: 3px;
+} */
+
+.input {
+  height: 2.6rem;
+  width: 13rem;
+  border: none;
+  border-radius: 2px;
+  border: 1px solid red;
+  margin-top: 1.5px;
+  font-size: 1.5rem;
+  padding-left: 5px;
+  color: rgb(108, 0, 0);
+}
+
+.input:focus {
+  outline: none;
+  color: rgb(154, 3, 3);
+  border: 1.5px solid red;
+  box-shadow: 0px 2px 4px rgba(255, 0, 0, 0.285);
+  transform: translateY(-1.5px);
+  animation-duration: 300ms;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 2rem;
+  margin: 0;
+}
+
+.form {
+  display: inline;
+}
+
+label {
+  display: block;
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+
+.msg {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+textarea {
+  margin-top: 1.5px;
+  margin-left: 2rem;
+  border: 1px solid red;
+  font-size: 1.6rem;
+  border-radius: 2px;
+}
+
+textarea:focus {
+  outline: none;
+  color: rgb(154, 3, 3);
+  border: 1.5px solid red;
+  box-shadow: 0px 2px 4px rgba(255, 0, 0, 0.285);
+  transform: translateY(-1.5px);
+  animation-duration: 300ms;
+}
+
+.submit {
+  display: block;
+  width: 87.3%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  height: 2.5rem;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 1px;
+  text-transform: uppercase;
+}
